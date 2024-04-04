@@ -1,0 +1,93 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: white;
+}
+img{
+  width:100%;
+  height:auto;
+  object-fit: cover;
+}
+
+button{
+  cursor: pointer;
+}
+
+section{
+  margin-top:1rem;
+  background-color:#F5F5F5
+}
+
+.about_box{
+  background-color:#F5F5F5;
+  border:1px solid rgba(0,0,0,0.1);
+  border-radius: 0.75rem;
+  text-align:center;
+  padding:1rem 1rem;
+  height:200px;
+  width:200px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-slide1 img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.scrollup{
+  position:fixed;
+  right:2.5rem;
+  bottom:-20%;
+  color:black;
+  background-color:white;
+  opacity: 0.8;
+  padding:0.3rem 0.5rem;
+  border-radius: 0.4rem;
+  cursor:pointer;
+  transition: .4s;
+}
+
+.scrollup_icon{
+  font-size:1.5rem;
+  color:var(--container-color);
+}
+.scrollup_icon:hover{
+  background-color: var(--title-color-dark);
+}
+
+
+/* Show scroll */
+
+.show-scroll{
+  bottom:3rem;
+}
+
+

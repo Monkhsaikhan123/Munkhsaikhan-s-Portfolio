@@ -1,0 +1,25 @@
+
+.navbar_container{
+  position: sticky;
+  width:100%;
+  display:flex;
+  justify-content: center;
+  position: sticky;
+}
+
+.active-link,
+.nav_link:hover{
+    font-weight: bold;
+    background-color: aliceblue;
+}
+.active-button{
+  background-color:aquamarine;
+}
+.nav_link{
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  font-family:serif;
+  font-weight:bold;
+  transition:.3s;
+}
